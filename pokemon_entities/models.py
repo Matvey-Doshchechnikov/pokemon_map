@@ -1,7 +1,6 @@
-# your models here
 from django.db import models  # noqa F401
 
-# your models here
+
 class Pokemon(models.Model):
     title = models.CharField('Название (рус.)', max_length=200)
     title_en = models.CharField('Название (англ.)', max_length=200, blank=True)
